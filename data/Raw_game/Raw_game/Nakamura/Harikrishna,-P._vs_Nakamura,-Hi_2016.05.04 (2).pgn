@@ -1,0 +1,22 @@
+[Event "chess.com QF Blitz 1m+1spm 2016"]
+[Site "chess.com INT"]
+[Date "2016.05.04"]
+[Round "24"]
+[White "Harikrishna, P."]
+[Black "Nakamura, Hi"]
+[Result "0-1"]
+[ECO "A10"]
+[WhiteElo "2763"]
+[BlackElo "2787"]
+[PlyCount "42"]
+[EventDate "2016.04.06"]
+[EventType "match (blitz)"]
+[EventRounds "26"]
+[EventCountry "USA"]
+[Source "Mark Crowther"]
+[SourceDate "2016.06.27"]
+
+1. c4 g6 2. Nc3 Bg7 3. Nf3 Nf6 4. e3 d6 5. d4 O-O 6. Be2 Nbd7 7. d5 e5 8. dxe6
+fxe6 9. O-O e5 10. b3 Kh8 11. Bb2 Qe7 12. Rc1 Nc5 13. b4 Nce4 14. Nxe4 Nxe4 15.
+Nd2 Nxd2 16. Qxd2 Bd7 17. c5 d5 18. Qxd5 Bc6 19. Qc4 a6 20. Qg4 Rf5 21. Rcd1
+Rg5 0-1

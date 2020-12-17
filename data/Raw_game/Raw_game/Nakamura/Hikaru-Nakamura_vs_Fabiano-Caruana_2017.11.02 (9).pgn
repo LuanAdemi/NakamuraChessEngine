@@ -1,0 +1,28 @@
+[Event "chess.com Speed 1m+1spm 2017"]
+[Site "chess.com INT"]
+[Date "2017.11.02"]
+[Round "2.24"]
+[White "Nakamura, Hi"]
+[Black "Caruana, F."]
+[Result "0-1"]
+[ECO "A01"]
+[WhiteElo "2786"]
+[BlackElo "2802"]
+[PlyCount "150"]
+[EventDate "2017.05.03"]
+[EventType "k.o. (blitz)"]
+[EventRounds "4"]
+[EventCountry "USA"]
+
+1. b3 Nf6 2. Bb2 d5 3. e3 g6 4. Nf3 Bg7 5. d4 O-O 6. Bd3 Nbd7 7. O-O b6 8. c4
+Bb7 9. cxd5 Nxd5 10. Nc3 Nxc3 11. Bxc3 c5 12. Rc1 Rc8 13. d5 Bxc3 14. Rxc3 Bxd5
+15. Ba6 Bxf3 16. Qxf3 Rc7 17. Rd1 Ne5 18. Qe2 Rd7 19. Rxd7 Qxd7 20. f4 Ng4 21.
+Rd3 Qf5 22. Bb7 Nf6 23. Bf3 h5 24. g3 Qc8 25. e4 Rd8 26. Re3 e6 27. e5 Nd5 28.
+Rd3 Ne7 29. Be4 Rd4 30. Kf2 Qd7 31. Qd2 Kg7 32. Ke3 Nd5+ 33. Kf3 Nc7 34. Ke3
+Nb5 35. a4 Rxd3+ 36. Qxd3 Nd4 37. Qc4 Nc6 38. Qd3 Nd4 39. Qc4 Qc8 40. b4 Qc7
+41. a5 Qe7 42. bxc5 bxc5 43. Qa6 Qc7 44. Kd3 Nf5 45. Qb7 Qxa5 46. Bxf5 gxf5 47.
+Qe7 Qa3+ 48. Ke2 Qa2+ 49. Kf1 Qd5 50. Qxa7 c4 51. Qc7 Qd3+ 52. Kg2 c3 53. Kh3
+c2 54. Qe7 Qd1 55. Qf6+ Kf8 56. Qh8+ Ke7 57. Qf6+ Ke8 58. Qh8+ Kd7 59. Qf8 c1=Q
+60. Qxf7+ Kd8 61. Qf8+ Kc7 62. Qe7+ Qd7 63. Qb4 Qf1+ 64. Kh4 Qfd1 65. Qa5+ Kb7
+66. Qb4+ Kc8 67. Qc5+ Qc7 68. Qf8+ Qcd8+ 69. Qxd8+ Kxd8 70. h3 Ke7 71. Kg5 Qf3
+72. Kh4 Kf7 73. Kg5 Qxg3+ 74. Kxh5 Kg7 75. h4 Qg6# 0-1

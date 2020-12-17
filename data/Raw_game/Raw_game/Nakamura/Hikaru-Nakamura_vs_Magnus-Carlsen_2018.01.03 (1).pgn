@@ -1,0 +1,19 @@
+[Event "chess.com Speed 1m+1spm 2017"]
+[Site "chess.com INT"]
+[Date "2018.01.03"]
+[Round "4.25"]
+[White "Nakamura, Hi"]
+[Black "Carlsen, M."]
+[Result "1-0"]
+[ECO "A01"]
+[WhiteElo "2786"]
+[BlackElo "2832"]
+[PlyCount "31"]
+[EventDate "2017.05.03"]
+[EventType "k.o. (blitz)"]
+[EventRounds "4"]
+[EventCountry "USA"]
+
+1. b3 a5 2. Bb2 a4 3. e3 e6 4. Nf3 Nf6 5. Nc3 a3 6. Bc1 d5 7. d4 Bb4 8. Bd2 O-O
+9. Bd3 Re8 10. Ne2 Bxd2+ 11. Qxd2 Nbd7 12. c4 e5 13. dxe5 Nxe5 14. Nxe5 Rxe5
+15. O-O dxc4 16. Bxh7+ 1-0

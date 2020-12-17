@@ -1,0 +1,21 @@
+[Event "Millionaire TB B 2015"]
+[Site "Las Vegas USA"]
+[Date "2015.10.11"]
+[Round "3.2"]
+[White "Bareev, E."]
+[Black "Nakamura, Hi"]
+[Result "0-1"]
+[ECO "D02"]
+[WhiteElo "2669"]
+[BlackElo "2816"]
+[PlyCount "22"]
+[EventDate "2015.10.11"]
+[EventType "tourn (rapid)"]
+[EventRounds "3"]
+[EventCountry "USA"]
+[EventCategory "18"]
+[Source "Mark Crowther"]
+[SourceDate "2015.10.12"]
+
+1. Nf3 d5 2. d4 c6 3. Bf4 Qb6 4. b3 Nf6 5. e3 Nh5 6. Bg5 h6 7. Bh4 Nd7 8. Ne5
+Nxe5 9. Qxh5 Ng4 10. Bg3 g6 11. Qh4 Bg7 0-1

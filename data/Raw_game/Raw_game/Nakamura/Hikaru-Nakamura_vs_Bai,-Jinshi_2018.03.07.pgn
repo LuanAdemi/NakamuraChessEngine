@@ -1,0 +1,23 @@
+[Event "PRO League Group Stage"]
+[Site "chess.com INT"]
+[Date "2018.03.07"]
+[Round "9"]
+[White "Nakamura, Hi"]
+[Black "Bai, Jinshi"]
+[Result "1-0"]
+[ECO "A45"]
+[WhiteElo "2781"]
+[BlackElo "2571"]
+[PlyCount "55"]
+[EventDate "2018.01.18"]
+[EventType "team (rapid)"]
+[EventRounds "9"]
+[EventCountry "USA"]
+[WhiteTeam "Seattle Sluggers"]
+[BlackTeam "Chengdu Pandas"]
+
+1. d4 Nf6 2. Bf4 d5 3. e3 c5 4. c3 Nc6 5. Bd3 Qb6 6. Qc1 Bg4 7. Nd2 e6 8. Ngf3
+Be7 9. O-O O-O 10. Qb1 Bh5 11. Ne5 Rac8 12. Bg5 Qc7 13. Nxc6 bxc6 14. Bxf6 gxf6
+15. Bxh7+ Kg7 16. Bd3 Rh8 17. f4 cxd4 18. exd4 c5 19. Qe1 Qb6 20. dxc5 Bxc5+
+21. Kh1 Qxb2 22. Nb3 Bb6 23. Qg3+ Bg6 24. Nd4 Bxd4 25. cxd4 Qxd4 26. Bxg6 fxg6
+27. Rab1 Rc7 28. f5 1-0

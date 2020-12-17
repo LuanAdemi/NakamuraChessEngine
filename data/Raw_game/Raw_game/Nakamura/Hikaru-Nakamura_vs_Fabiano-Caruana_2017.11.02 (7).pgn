@@ -1,0 +1,23 @@
+[Event "chess.com Speed 1m+1spm 2017"]
+[Site "chess.com INT"]
+[Date "2017.11.02"]
+[Round "2.20"]
+[White "Nakamura, Hi"]
+[Black "Caruana, F."]
+[Result "0-1"]
+[ECO "A05"]
+[WhiteElo "2786"]
+[BlackElo "2802"]
+[PlyCount "78"]
+[EventDate "2017.05.03"]
+[EventType "k.o. (blitz)"]
+[EventRounds "4"]
+[EventCountry "USA"]
+
+1. Nf3 Nf6 2. b3 g6 3. Bb2 Bg7 4. e3 O-O 5. d4 d5 6. Bd3 a5 7. O-O a4 8. c4 c6
+9. Nc3 axb3 10. axb3 Rxa1 11. Qxa1 Na6 12. Ba3 Re8 13. cxd5 Nxd5 14. Nxd5 Qxd5
+15. Bc4 Qh5 16. Ne5 Bxe5 17. dxe5 Nc7 18. Rd1 Be6 19. Bxe6 Nxe6 20. Rd7 c5 21.
+Rxb7 Rd8 22. f3 Qf5 23. Qc1 Qd3 24. Bxc5 Nxc5 25. Qxc5 Qd1+ 26. Kf2 Rd2+ 27.
+Kg3 Qe1+ 28. Kh3 Qe2 29. Qc8+ Kg7 30. Qg4 Qxe3 31. Rxe7 Rd4 32. e6 Rxg4 33.
+Kxg4 h5+ 34. Kh3 Kh6 35. b4 fxe6 36. b5 g5 37. Rf7 g4+ 38. Kg3 Kg6 39. Rf4 Qe1#
+0-1
