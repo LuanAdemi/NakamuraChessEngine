@@ -1,42 +1,58 @@
 import string
 import torch
 import random
+import numpy as np
 
-# create a list with all ascii letters
-all_letters = "abcdefghrknpABCDEFGHRKNP12345678"
-n_letters = len(all_letters)
+def boardToTensor(board, c):
+    boardArray = np.array([a.split(" ") for a in str(board).split("\n")])
+    
+    wPMask = np.array([boardArray == "P"], dtype=np.int)
+    bPMask = np.array([boardArray == "p"], dtype=np.int)
+    wBMask = np.array([boardArray == "B"], dtype=np.int)
+    bBMask = np.array([boardArray == "b"], dtype=np.int)
+    wNMask = np.array([boardArray == "N"], dtype=np.int)
+    bNMask = np.array([boardArray == "n"], dtype=np.int)
+    wRMask = np.array([boardArray == "R"], dtype=np.int)
+    bRMask = np.array([boardArray == "r"], dtype=np.int)
+    wQMask = np.array([boardArray == "Q"], dtype=np.int)
+    bQMask = np.array([boardArray == "q"], dtype=np.int)
+    wKMask = np.array([boardArray == "K"], dtype=np.int)
+    bKMask = np.array([boardArray == "k"], dtype=np.int)
+    tensor = np.zeros((7,8,8))
+    
+    tensor[0] = wPMask - bPMask
+    tensor[1] = wBMask - bBMask
+    tensor[2] = wNMask - bNMask
+    tensor[3] = wRMask - bRMask
+    tensor[4] = wQMask - bQMask
+    tensor[5] = wKMask - bKMask
+    
+    if c=="b":
+        tensor[6] = np.full((8,8), 1)
+    return torch.FloatTensor(tensor).view(1,7,8,8)
 
-# maps every ascii character to an individual number
-def letterToIndex(letter):
-    return all_letters.find(letter)
+def moveToTensor(move):
+    boardLetters = "abcdefgh"
+    moveArray = list(str(move))[:4]
+    tensor = np.zeros((4,4,4))
+    for i, l in enumerate(moveArray):
+        tmp = np.zeros((16))
+        if i%2 == 0:
+            index = boardLetters.find(l)
+            tmp[index] = 1
+        else:
+            index = int(l)-1
+            tmp[index] = 1
+        tensor[i] = tmp.reshape((4,4))
+    return torch.FloatTensor(tensor)
 
-# creates a tensor resembeling a curtain character
-def letterToTensor(letter):
-    tensor = torch.zeros(1, n_letters)
-    tensor[0][letterToIndex(letter)] = 1
-    return tensor
-
-# creates a tensor resembeling a curtain word
-def lineToTensor(line):
-    tensor = torch.zeros(len(line), 1, n_letters)
-    for li, letter in enumerate(line):
-        tensor[li][0][letterToIndex(letter)] = 1
-    return tensor
-
-# converts a tensor to text
-def tensorToLine(tensor):
-    tensor = tensor.numpy()
-    line = ""
-    for sub in tensor:
-        for li, n in enumerate(sub):
-            if n:
-                line += all_letters[li]
-                
-    return line
-            
-# selects a random element from a list
-def randomChoice(l):
-    return l[random.randint(0, len(l) - 1)]
-
-def readFile(filepath):
-    return open(filepath, encoding='utf-8').read().strip().upper().split('\n')
+def tensorToMove(tensor):
+    boardLetters = "abcdefgh"
+    move = ""
+    for i, m in enumerate(tensor):
+        m.reshape((16))
+        if i%2 == 0:
+            move += boardLetters[np.argmax(m[:8])]
+        else:
+            move += str(np.argmax(m[:8]).item())
+    return move
