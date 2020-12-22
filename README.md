@@ -6,4 +6,4 @@ This notebook uses the new <a href="https://github.com/juntang-zhuang/Adabelief-
 The dataset used can be found <a href="https://www.kaggle.com/liury123/chess-game-from-12-top-players">here</a>.
 
 ## Basic architecture
-<img src="https://raw.githubusercontent.com/LuanAdemi/NakamuraChessEngine/main/Model.svg">
+<img src="https://raw.githubusercontent.com/LuanAdemi/NakamuraChessEngine/main/assets/Model.svg">
