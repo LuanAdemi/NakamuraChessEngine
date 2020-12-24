@@ -54,5 +54,5 @@ def tensorToMove(tensor):
         if i%2 == 0:
             move += boardLetters[np.argmax(m[:8])]
         else:
-            move += str(np.argmax(m[:8]).item())
+            move += str(np.argmax(m[:8]).item() + 1)
     return move
